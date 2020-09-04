@@ -4,7 +4,6 @@ Perception module of the self-driving system
 
 ## System Components & Structure
 The structure is shown as below:
-![sys](1_sys.png)
 
 As we can see, our system contains a LiDAR, a RGB camera and two infrerad (IR) cameras. 
 
@@ -14,6 +13,5 @@ We use SSD-MobileNet v1 (https://github.com/tensorflow/models/blob/master/resear
 
 ## Results
 The results are shown as below:
-![inte](3_stereo.png)
 We can see the correct bounding box around the objects. Two SSD-MobileNet v1 models (one for each IR camera) are running on Nvidia Xavier with about 11FPS.
 
